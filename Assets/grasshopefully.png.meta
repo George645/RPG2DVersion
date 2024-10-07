@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0412bfb7a17fce64f896aef21d1324c7
+guid: 176502eb54bf55944a9068c09a2f0901
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3076221720867734633
-    second: mud and work for the afternoon_0
+      213: -967977400998938586
+    second: grasshopefully_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 42
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mud and work for the afternoon_0
+      name: grasshopefully_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 45
-        height: 46
+        width: 89
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96489aa4b5fe0ba20800000000000000
-      internalID: 3076221720867734633
+      spriteID: 6283adeaead0192f0800000000000000
+      internalID: -967977400998938586
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mud and work for the afternoon_0: 3076221720867734633
+      grasshopefully_0: -967977400998938586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
