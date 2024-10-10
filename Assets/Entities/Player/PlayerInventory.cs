@@ -8,10 +8,10 @@ public class PlayerInventory : MonoBehaviour{
     void Start(){
         itemList = new ArrayList();
     }
-    public void AddItem(string item){
+    public void AddItem(Item item){
         itemList.Add(item);
     }
-    public void DeleteItem(string item){
+    public void DeleteItem(Item item){
         if (itemList.Contains(item)){
             itemList.Remove(item);
         }

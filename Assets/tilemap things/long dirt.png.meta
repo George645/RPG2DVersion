@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b85568135c66d51408def65f1e8806e8
+guid: 0a621c46f634a6b45a2313185c6aae5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5634026908348037240
-    second: dirt_0
+      213: 2441039217391353314
+    second: long dirt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirt_0
+      name: long dirt_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 89
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 88
+        height: 314
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8537}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 878b31f6f95103e40800000000000000
-      internalID: 5634026908348037240
+      spriteID: 2edb86b2c3050e120800000000000000
+      internalID: 2441039217391353314
       vertices: []
       indices: 
       edges: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1f78bcf1a9e66ea4c8868e5c822d7905
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dirt_0: 5634026908348037240
+      long dirt_0: 2441039217391353314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
