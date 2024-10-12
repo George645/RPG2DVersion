@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;        // Horizontal movement speed
-    public float jumpForce = 10f;       // Jump force for vertical movement
+    public float moveSpeed = 5;        // Horizontal movement speed
+    public float jumpForce = 10;       // Jump force for vertical movement
     public Rigidbody2D rb;              // Rigidbody2D component
 
     private Vector2 movement;           // Store player movement input
@@ -13,16 +13,18 @@ public class PlayerMovement : MonoBehaviour
         // Get the horizontal input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        movement.Set(movement.x, (float)movement.y/2);
+        movement.Normalize();
 
         // Flip the character sprite based on movement direction
-//        if (movement.x < 0)
-//        {
-//            transform.localScale = new Vector3(-1, 1, 1); // Face left
-//        }
-//        else if (movement.x > 0)
-//        {
-//            transform.localScale = new Vector3(1, 1, 1); // Face right
-//        }
+        //        if (movement.x < 0)
+        //        {
+        //            transform.localScale = new Vector3(-1, 1, 1); // Face left
+        //        }
+        //        else if (movement.x > 0)
+        //        {
+        //            transform.localScale = new Vector3(1, 1, 1); // Face right
+        //        }
     }
     void FixedUpdate()
     {
