@@ -1,13 +1,10 @@
-using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour{
     // Declare the ArrayList
-    [SerializeField]private ArrayList itemList;
+    public List<Item> itemList;
 
-    void Start(){
-        itemList = new ArrayList();
-    }
     public void AddItem(Item item){
         itemList.Add(item);
     }

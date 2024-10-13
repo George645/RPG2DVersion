@@ -1,9 +1,9 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5;        // Horizontal movement speed
-    public float jumpForce = 10;       // Jump force for vertical movement
     public Rigidbody2D rb;              // Rigidbody2D component
 
     private Vector2 movement;           // Store player movement input
@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // Get the horizontal input
         movement.x = Input.GetAxisRaw("Horizontal");
+        Debug.Log(Input.GetAxisRaw("Horizontal"));
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Set(movement.x, (float)movement.y/2);
         movement.Normalize();
@@ -30,9 +31,6 @@ public class PlayerMovement : MonoBehaviour
     {
         // Apply horizontal movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-
-        // Check if the player is grounded
-//        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
 }

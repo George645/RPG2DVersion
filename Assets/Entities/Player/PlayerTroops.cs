@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerTroops
+public class PlayerTroops : MonoBehaviour
 {
     
 }
