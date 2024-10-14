@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log(Input.GetAxisRaw("Horizontal"));
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Set(movement.x, (float)movement.y/2);
+//        Debug.Log(Tilemap.GetTile(rb));
+
+
+
         movement.Normalize();
 
         // Flip the character sprite based on movement direction

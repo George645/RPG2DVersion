@@ -17,7 +17,11 @@ MonoBehaviour:
   m_PlatformId: 4e3c793746204150860bf175a9a41a05
   m_PlatformBuildProfile:
     rid: 555038088625127495
-  m_Scenes: []
+  m_Scenes:
+  - m_enabled: 1
+    m_path: Assets/Scenes/start menu.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/generic test scene.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
@@ -36,7 +40,7 @@ MonoBehaviour:
         m_ExplicitNullChecks: 0
         m_ExplicitDivideByZeroChecks: 0
         m_ExplicitArrayBoundsChecks: 0
-        m_CompressionType: -1
+        m_CompressionType: 0
         m_InstallInBuildFolder: 0
         m_WindowsBuildAndRunDeployTarget: 0
         m_Architecture: 0
