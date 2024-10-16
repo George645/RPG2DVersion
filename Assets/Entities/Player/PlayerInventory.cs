@@ -19,10 +19,8 @@ public class PlayerInventory : MonoBehaviour{
     public void DisplayInventory(){
         Debug.Log("Inventory This has not been added yet");
     }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
+    private void Update(){
+        if (Input.GetKeyDown(KeyCode.E)){
             DisplayInventory();
         }
     }

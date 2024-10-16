@@ -5,6 +5,10 @@ public class SceneChanger : MonoBehaviour{
     public void ChangeScene(string sceneName){
         SceneManager.LoadScene(sceneName);
     }
+
+    public void UnloadScene(string sceneName){
+        SceneManager.UnloadSceneAsync(sceneName);
+    }
     public void Exit(){
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;

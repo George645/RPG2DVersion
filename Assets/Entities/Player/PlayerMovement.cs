@@ -8,19 +8,28 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;              // Rigidbody2D component
 
     private Vector2 movement;           // Store player movement input
-
+    new static Vector3Int currentPos;
+    public static Tilemap tileMap;
+    public static Tile grass;
+    private static bool CanMoveInDirection(Vector3Int checkingPosition){
+        if (tileMap.GetTile(checkingPosition) == grass){
+            Debug.Log(true);
+            return true;
+        }
+        return false;
+    }
     void Update()
     {
         // Get the horizontal input
         movement.x = Input.GetAxisRaw("Horizontal");
-        Debug.Log(Input.GetAxisRaw("Horizontal"));
         movement.y = Input.GetAxisRaw("Vertical");
         movement.Set(movement.x, (float)movement.y/2);
-//        Debug.Log(Tilemap.GetTile(rb));
-
-
+        //        Debug.Log(Tilemap.GetTile(rb));
+        currentPos = new Vector3Int((int)rb.position.x, (int)rb.position.y);
+        CanMoveInDirection(currentPos);
 
         movement.Normalize();
+
 
         // Flip the character sprite based on movement direction
         //        if (movement.x < 0)
