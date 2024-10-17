@@ -11,13 +11,13 @@ public class PlayerMovement : MonoBehaviour
     new static Vector3Int currentPos;
     public static Tilemap tileMap;
     public static Tile grass;
-    private static bool CanMoveInDirection(Vector3Int checkingPosition){
-        if (tileMap.GetTile(checkingPosition) == grass){
-            Debug.Log(true);
-            return true;
-        }
-        return false;
-    }
+//    private static bool CanMoveInDirection(Vector3Int checkingPosition){
+//        if (tileMap.GetTile(checkingPosition) == grass){
+//            Debug.Log(true);
+//            return true;
+//        }
+//        return false;
+//    }
     void Update()
     {
         // Get the horizontal input
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         movement.Set(movement.x, (float)movement.y/2);
         //        Debug.Log(Tilemap.GetTile(rb));
         currentPos = new Vector3Int((int)rb.position.x, (int)rb.position.y);
-        CanMoveInDirection(currentPos);
+//        CanMoveInDirection(currentPos);
 
         movement.Normalize();
 

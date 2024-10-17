@@ -1,13 +1,30 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
-public class Player : Entity{
+public class Player : Entity {
     PlayerInventory playerInventory;
-    int intelligence = 5, strength = 5, dexterity = 5, constitution = 5, level = 0, experience = 0;
+    int intelligence = 5;
+    public int Intelligence { get; }
+    private int level = 0;
+    public int Level { get { return level; }}
+    private int strength = 5;
+    public int Strength { get { return strength; }}
+    private int constitution = 5;
+    public int Constitution { get { return constitution;  } }
+    private int experience = 0;
+    public int Experience { set { experience = value; } }
+    private int dexterity = 5;
+    public int Dexterity { get; }
     public List<Soldier> soldiers = new List<Soldier>();
     //Ability ability1, ability2
-    public Player(string name, int health, int baseAttack, int intelligence, int strength, int dexterity, int constitution) : base(name, constitution * 10, baseAttack){
+    public Player(string name, int intelligence, int strength, int dexterity, int constitution) : base(name, constitution * 10, strength/2){
+        this.intelligence = intelligence;
+        this.strength = strength;
+        this.dexterity = dexterity;
+        this.constitution = constitution;
+        health = constitution * 10;
     }
     public void AddSoldier(Soldier soldier){
         soldiers.Add(soldier);
@@ -20,5 +37,18 @@ public class Player : Entity{
         catch{
             Debug.Log(message: "there was no soldier with id " + soldier.name);
         }
+    }
+    public void LevelUp()
+    {
+        Debug.Log(message: "This is not yet implemented, needs to run into the other attributes");
+    }
+    private void AddStrength(int amountToAdd){
+        strength += amountToAdd;
+        baseAttack = strength / 2;
+    }
+    private void AddConstitution(int amountToAdd)
+    {
+        constitution += amountToAdd;
+        health = constitution * 10;
     }
 }
