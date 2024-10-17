@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
     }
+
+    
     void Update()
     {
         // Get the horizontal input
@@ -26,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         movement.Set(movement.x, (float)movement.y/2);
         //        Debug.Log(Tilemap.GetTile(rb));
         currentPos = new Vector3Int((int)rb.position.x, (int)rb.position.y);
-        CanMoveInDirection(currentPos);
+        //CanMoveInDirection(currentPos);
 
         movement.Normalize();
 
