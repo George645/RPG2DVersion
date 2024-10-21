@@ -4,7 +4,7 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Marker : MonoBehaviour
 {
-    public Rigidbody2D rb;
+//    public Rigidbody2D rb;
     private Vector2 target;
     void Update()
     {
