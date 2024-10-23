@@ -21,7 +21,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/start menu.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/generic test scene.unity
+    m_path: Assets/Scenes/Outside camp.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Camp.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

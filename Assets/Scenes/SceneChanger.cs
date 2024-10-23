@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour{
+    public string nextSceneName;
     public void ChangeScene(string sceneName){
         SceneManager.LoadScene(sceneName);
     }
@@ -16,9 +17,10 @@ public class SceneChanger : MonoBehaviour{
             Application.Quit();
         #endif
     }
-
-    void Start(){
-        Scene currentScene = SceneManager.GetActiveScene();
- //       Debug.Log("Current Scene Name: " + currentScene.name);
+    private void OnCollisionEnter2D(Collision2D other){
+        // Check if the object entering the trigger is the player
+        if (other.gameObject.CompareTag("Player")){
+            SceneManager.LoadScene(nextSceneName);
+        }
     }
 }

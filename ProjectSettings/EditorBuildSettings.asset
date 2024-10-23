@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/start menu.unity
     guid: b395b01d6b151d24cad928025102ec20
   - enabled: 1
-    path: Assets/Scenes/generic test scene.unity
+    path: Assets/Scenes/Outside camp.unity
     guid: 317bc9cd07ed15d4094f4fbfb1948b58
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
