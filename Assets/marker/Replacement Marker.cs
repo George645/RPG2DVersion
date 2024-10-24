@@ -12,13 +12,9 @@ public class MouseDragSelect : MonoBehaviour{
     }
     void Update() {
         if (Input.GetMouseButtonDown(0)){
-            Debug.Log("1");
             startPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log("2");
             lr.SetPosition(0, startPos);
-            Debug.Log("3");
             lr.enabled = true;
-            Debug.Log("4");
         }
         else if (Input.GetMouseButton(0)){
             endPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

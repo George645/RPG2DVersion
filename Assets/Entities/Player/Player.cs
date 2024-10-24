@@ -5,25 +5,14 @@ using System;
 
 public class Player : Entity {
     PlayerInventory playerInventory;
-    int intelligence = 5;
-    public int Intelligence { get; }
+    public List<Soldier> soldiers = new List<Soldier>();
     private int level = 0;
-    public int Level { get { return level; }}
-    private int strength = 5;
-    public int Strength { get { return strength; }}
-    private int constitution = 5;
-    public int Constitution { get { return constitution;  } }
+    public int Level { get { return level; } }
     private int experience = 0;
     public int Experience { set { experience = value; } }
-    private int dexterity = 5;
-    public int Dexterity { get; }
-    public List<Soldier> soldiers = new List<Soldier>();
     //Ability ability1, ability2
-    public Player(string name, int intelligence, int strength, int dexterity, int constitution) : base(name, constitution * 10, strength/2){
-        this.intelligence = intelligence;
-        this.strength = strength;
-        this.dexterity = dexterity;
-        this.constitution = constitution;
+    public Player(string name, int intelligence, int strength, int dexterity, int constitution) : base(name, constitution * 10, strength/2, intelligence, strength, dexterity, constitution)
+    {
         health = constitution * 10;
     }
     public void AddSoldier(Soldier soldier){

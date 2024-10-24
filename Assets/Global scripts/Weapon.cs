@@ -8,7 +8,7 @@ public class Weapon : Item{
         oneHanded, twoHanded
     }
     oneOrTwo equipable;
-    public Weapon(string name, string description, int price, int weight, Rarity rarity, oneOrTwo equipable) : base(name, description, price, weight, rarity){
+    public Weapon(string name, string description, int price, int weight, oneOrTwo equipable, int? requiredStrength = null, int? requiredDexterity = null, int? requiredIntelligence = null) : base(name, description, price, weight){
 
     }
 }

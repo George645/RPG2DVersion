@@ -1,13 +1,14 @@
 using UnityEngine;
 using System;
+using System.Runtime.CompilerServices;
+using UnityEditor.Experimental.GraphView;
 
 public class SoldierMovement : MonoBehaviour{
     public Rigidbody2D rbMarker;
     public Rigidbody2D rbSelf;
     public float speed = 3;
     private Vector2 movement;
-    void Update()
-    {
+    void Update(){
         movement.y = 0;
         movement.x = 0;
         if (Math.Abs(rbSelf.position.x - rbMarker.position.x) > 0.1){
