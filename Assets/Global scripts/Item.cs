@@ -19,6 +19,8 @@ public class Item
         this.weight = weight;
     }
     public void canAllyUse(Entity Ally){
-
+        if (requiredStrength != null){
+            if Ally.
+        }
     }
 }
