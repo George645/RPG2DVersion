@@ -1,8 +1,4 @@
-using System;
-using TMPro;
 using UnityEngine;
-using static UnityEngine.RuleTile.TilingRuleOutput;
-
 public class follow : MonoBehaviour
 {
     public Rigidbody2D followee;
@@ -57,7 +53,7 @@ public class follow : MonoBehaviour
                 }
             }
             else{
-                Debug.Log((int)verticalToMove);
+                Debug.Log((int)verticalToMove + "in the follow script");
             }
         }
         target.y -= (float)0.1;

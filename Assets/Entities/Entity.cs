@@ -9,12 +9,10 @@ public class Entity : MonoBehaviour
     public int Intelligence { get; }
     private int dexterity = 5;
     public int Dexterity { get; }
-    private int constitution = 5;
-    public int Constitution { get { return constitution; } }
-    private int strength = 5;
-    public int Strength { get { return strength; } }
+    public int constitution = 5;
+    public int strength = 5;
 
-    public Entity(string name, int health, int baseAttack /*There will be more once I have done the item class*/, int intelligence, int strength, int dexterity, int constitution)
+    public Entity(string name, int health, int baseAttack /*There will be more once I have done the item class*/, int strength, int dexterity, int constitution, int intelligence = 10)
     {
         this.intelligence = intelligence;
         this.strength = strength;

@@ -20,7 +20,7 @@ public class Item
     }
     public void canAllyUse(Entity Ally){
         if (requiredStrength != null){
-            if Ally.
+         //   if Ally.
         }
     }
 }
