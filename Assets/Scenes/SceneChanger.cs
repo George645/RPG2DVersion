@@ -15,6 +15,11 @@ public class SceneChanger : MonoBehaviour{
             Debug.LogWarning("no collider2d registered, possible cause of an issue");
         }
     }
+    public void AddScene(string sceneName)
+    {
+        Debug.Log("Success");
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+    }
     public void ChangeScene(string sceneName){
         SceneManager.LoadScene(sceneName);
     }
@@ -30,10 +35,18 @@ public class SceneChanger : MonoBehaviour{
         #endif
     }
     void OnTriggerEnter2D(Collider2D other){
-        Debug.Log(" ");
+        Debug.Log("scene changer collision detected with " + other);
         // Check if the object entering the trigger is the player
         if (other.gameObject.CompareTag("Player")){
             SceneManager.LoadScene(nextSceneName);
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            AddScene("Pause menu");
         }
     }
 }

@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 1693f98da4e25074a995e8dc1ac2d5ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -499991465908145009
+    second: Blue soldier sprite sheet_0
+  - first:
+      213: 920206933255817861
+    second: Blue soldier sprite sheet_1
+  - first:
+      213: 456657513688725972
+    second: Blue soldier sprite sheet_2
+  - first:
+      213: 8560258855156499045
+    second: Blue soldier sprite sheet_3
+  - first:
+      213: -6600467580731559854
+    second: Blue soldier sprite sheet_4
+  - first:
+      213: -5432752137486339299
+    second: Blue soldier sprite sheet_5
+  - first:
+      213: 4558782004790011972
+    second: Blue soldier sprite sheet_6
+  - first:
+      213: -687064479375806743
+    second: Blue soldier sprite sheet_7
+  - first:
+      213: -1590137587300727079
+    second: Blue soldier sprite sheet_8
+  - first:
+      213: -4209534037883123089
+    second: Blue soldier sprite sheet_9
+  - first:
+      213: -5338209792672834638
+    second: Blue soldier sprite sheet_10
+  - first:
+      213: 3688583847381075945
+    second: Blue soldier sprite sheet_11
+  - first:
+      213: 1516264635344105164
+    second: Blue soldier sprite sheet_12
+  - first:
+      213: -2616153244230991592
+    second: Blue soldier sprite sheet_13
+  - first:
+      213: 1553767117403726200
+    second: Blue soldier sprite sheet_14
+  - first:
+      213: 5994024372679378563
+    second: Blue soldier sprite sheet_15
+  - first:
+      213: -3412590645595467587
+    second: Blue soldier sprite sheet_16
+  - first:
+      213: -2866814929856524138
+    second: Blue soldier sprite sheet_17
+  - first:
+      213: -7624467424499413975
+    second: Blue soldier sprite sheet_18
+  - first:
+      213: 8079385197779091076
+    second: Blue soldier sprite sheet_19
+  - first:
+      213: -5640660378845807407
+    second: Blue soldier sprite sheet_20
+  - first:
+      213: 6781445662423582713
+    second: Blue soldier sprite sheet_21
+  - first:
+      213: -1676689696085588781
+    second: Blue soldier sprite sheet_22
+  - first:
+      213: -3241614076735703642
+    second: Blue soldier sprite sheet_23
+  - first:
+      213: -3973267667893157153
+    second: Blue soldier sprite sheet_24
+  - first:
+      213: -2484654854421298940
+    second: Blue soldier sprite sheet_25
+  - first:
+      213: 5412603779789714170
+    second: Blue soldier sprite sheet_26
+  - first:
+      213: 2952728773348937817
+    second: Blue soldier sprite sheet_27
+  - first:
+      213: -2798835188022368395
+    second: Blue soldier sprite sheet_28
+  - first:
+      213: -59955783121635126
+    second: Blue soldier sprite sheet_29
+  - first:
+      213: -2904436770300462267
+    second: Blue soldier sprite sheet_30
+  - first:
+      213: -8012750722083408588
+    second: Blue soldier sprite sheet_31
+  - first:
+      213: 2660451522816014864
+    second: Blue soldier sprite sheet_32
+  - first:
+      213: 7816733383212948759
+    second: Blue soldier sprite sheet_33
+  - first:
+      213: 220554067729451895
+    second: Blue soldier sprite sheet_34
+  - first:
+      213: 5731593440977733744
+    second: Blue soldier sprite sheet_35
+  - first:
+      213: -127785058181688286
+    second: Blue soldier sprite sheet_36
+  - first:
+      213: -1943491967816490648
+    second: Blue soldier sprite sheet_37
+  - first:
+      213: 5242182916722599839
+    second: Blue soldier sprite sheet_38
+  - first:
+      213: 5962123046111803004
+    second: Blue soldier sprite sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 8839
+        width: 343
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8471db296caf09f0800000000000000
+      internalID: -499991465908145009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 7748
+        width: 343
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a8090945b35cc00800000000000000
+      internalID: 920206933255817861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 7732
+        width: 343
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9fd67d69f565600800000000000000
+      internalID: 456657513688725972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 7723
+        width: 343
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562cef613162cc670800000000000000
+      internalID: 8560258855156499045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 7723
+        width: 343
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2507303c4bd6664a0800000000000000
+      internalID: -6600467580731559854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 7723
+        width: 343
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13f16407bcfa94b0800000000000000
+      internalID: -5432752137486339299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5770
+        y: 7723
+        width: 343
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a3f3741c044f30800000000000000
+      internalID: 4558782004790011972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 7723
+        width: 343
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee24090f7e0776f0800000000000000
+      internalID: -687064479375806743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7930
+        y: 7732
+        width: 343
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d681fc0a42bee9e0800000000000000
+      internalID: -1590137587300727079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 7748
+        width: 343
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a8f0a781bb495c0800000000000000
+      internalID: -4209534037883123089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8983
+        y: 6498
+        width: 353
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb59330a7edae5b0800000000000000
+      internalID: -5338209792672834638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 5410
+        width: 353
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7846b577b703330800000000000000
+      internalID: 3688583847381075945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 5443
+        width: 412
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2c2ff6aada0510800000000000000
+      internalID: 1516264635344105164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 5454
+        width: 504
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81140af3c7e81bbd0800000000000000
+      internalID: -2616153244230991592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 5448
+        width: 569
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871288806f6109510800000000000000
+      internalID: 1553767117403726200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 5439
+        width: 602
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3868694c86d0f2350800000000000000
+      internalID: 5994024372679378563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 5448
+        width: 569
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0167573ea04a0d0800000000000000
+      internalID: -3412590645595467587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 6748
+        y: 5454
+        width: 504
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6909d15a2070738d0800000000000000
+      internalID: -2866814929856524138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 7871
+        y: 5443
+        width: 412
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ccc290643703690800000000000000
+      internalID: -7624467424499413975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 8983
+        y: 5421
+        width: 353
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48efb2de70ebf1070800000000000000
+      internalID: 8079385197779091076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 9059
+        y: 3723
+        width: 186
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc764c554958b1b0800000000000000
+      internalID: -5640660378845807407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2643
+        width: 186
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70f5c76e88c1e50800000000000000
+      internalID: 6781445662423582713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 2638
+        width: 294
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4c24ada933bb8e0800000000000000
+      internalID: -1676689696085588781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 2638
+        width: 417
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a533490c297303d0800000000000000
+      internalID: -3241614076735703642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 2643
+        width: 520
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd20fa97b1e1cd8c0800000000000000
+      internalID: -3973267667893157153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 2643
+        width: 559
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401c4ccf29bb48dd0800000000000000
+      internalID: -2484654854421298940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 5657
+        y: 2643
+        width: 520
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af27d44e57e6d1b40800000000000000
+      internalID: 5412603779789714170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 2638
+        width: 417
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950d985dc233af820800000000000000
+      internalID: 2952728773348937817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 7925
+        y: 2638
+        width: 294
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5772011b93a8829d0800000000000000
+      internalID: -2798835188022368395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 9059
+        y: 2643
+        width: 186
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8fdcc688efa2ff0800000000000000
+      internalID: -59955783121635126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8989
+        y: 1098
+        width: 353
+        height: 969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b78a1552e51b7d0800000000000000
+      internalID: -2904436770300462267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 8
+        width: 353
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435b670fbadfcc090800000000000000
+      internalID: -8012750722083408588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 24
+        width: 353
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a78977092dbe420800000000000000
+      internalID: 2660451522816014864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 2
+        width: 353
+        height: 985
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d5852e89d9a7c60800000000000000
+      internalID: 7816733383212948759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 0
+        width: 353
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b08cc81c09f0300800000000000000
+      internalID: 220554067729451895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 0
+        width: 380
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078cf660ed5ba8f40800000000000000
+      internalID: 5731593440977733744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 5749
+        y: 0
+        width: 353
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2245a77aa240a3ef0800000000000000
+      internalID: -127785058181688286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6829
+        y: 2
+        width: 353
+        height: 985
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86129723a545705e0800000000000000
+      internalID: -1943491967816490648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 7909
+        y: 8
+        width: 353
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f972fd6a699ffb840800000000000000
+      internalID: 5242182916722599839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue soldier sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 8989
+        y: 18
+        width: 353
+        height: 969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76f9ae5257bdb250800000000000000
+      internalID: 5962123046111803004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

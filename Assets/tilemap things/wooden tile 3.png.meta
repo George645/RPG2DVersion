@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9456d2a6a5f7ab744af2dd0b24a8735c
+guid: d20533dbe1578aa4a9e0b410ed037303
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4588881800543304585
-    second: wooden tile 3_0
+      213: 7414924579032405605
+    second: wooden tile 4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -98,19 +98,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -147,15 +134,15 @@ TextureImporter:
         width: 89
         height: 66
       alignment: 9
-      pivot: {x: 0.5, y: 0.69}
+      pivot: {x: 0.51, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7748c5ab0540150c0800000000000000
-      internalID: -4588881800543304585
+      spriteID: 5661a816e9a17e660800000000000000
+      internalID: 7414924579032405605
       vertices: []
       indices: 
       edges: []
@@ -164,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5835788616bb23342b0a4502bbea455b
+    spriteID: 91ee28e193bad654fa33df293d1b7e65
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wooden tile 3_0: -4588881800543304585
+      wooden tile 3_0: 7414924579032405605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

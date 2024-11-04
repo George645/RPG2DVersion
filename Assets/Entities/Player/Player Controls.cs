@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.SceneManagement;
 
-public class PlayerMovement : MonoBehaviour{
+public class PlayerController : MonoBehaviour{
     public float moveSpeed = 5;        // Horizontal movement speed
     public Rigidbody2D rb;              // Rigidbody2D component
     private Vector2 movement;           // Store player movement input
@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour{
     {
         up, left, right, down
     }
-    public direction directionFacing;
+    public direction directionFacing = direction.up;
     private string buttonPushed;
 
 
@@ -42,9 +42,6 @@ public class PlayerMovement : MonoBehaviour{
         {
             directionFacing = direction.down;
         }
-
-
-
     }
     void FixedUpdate(){
         // Apply horizontal movement

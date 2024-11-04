@@ -15,14 +15,14 @@ public class MouseDragSelect : MonoBehaviour{
         lr.enabled = false;
     }
     void Update() {
-        maxLengthOfLine= player.numberOfSoldiers*distancePerUnit;
-        if (Input.GetMouseButtonDown(0)){
+        maxLengthOfLine= player.totalSelectedSoldiers*distancePerUnit;
+        if (Input.GetMouseButtonDown(1)){
             startPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             lr.SetPosition(0, startPos);
             lr.SetPosition(1, startPos);
             lr.enabled = true;
         }
-        else if (Input.GetMouseButton(0)){
+        else if (Input.GetMouseButton(1)){
             endPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             dir = endPos - startPos;
             lengthOfLine = Mathf.Clamp(Vector2.Distance(endPos, startPos), 0, maxLengthOfLine);
@@ -30,7 +30,7 @@ public class MouseDragSelect : MonoBehaviour{
             lr.SetPosition(1, endPos);
 
         }
-        else if (Input.GetMouseButtonUp(0) && turnInvisible){
+        else if (Input.GetMouseButtonUp(1) && turnInvisible){
             Debug.Log(" ");
             lr.enabled = false;
         }
