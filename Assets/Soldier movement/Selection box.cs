@@ -9,12 +9,12 @@ public class Selectionbox : MonoBehaviour
     List<Soldier> attemptingselectedSoldier = new List<Soldier>();
     public Player player;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         lr = GetComponent<LineRenderer>();
         box = GetComponent<BoxCollider2D>();
         Destroy(box);
+        lr.enabled = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -26,12 +26,13 @@ public class Selectionbox : MonoBehaviour
         }
         catch { }
     }
-    // Update is called once per frame
     void Update(){
         try {
-            player.SoldiersInList(attemptingselectedSoldier);
-            attemptingselectedSoldier = new List<Soldier>();
-            Destroy(box);
+            if (attemptingselectedSoldier.Count > 0){
+                player.SoldiersInList(attemptingselectedSoldier);
+                attemptingselectedSoldier = new List<Soldier>();
+                Destroy(box);
+            }
         }
         catch{
         }
@@ -60,11 +61,14 @@ public class Selectionbox : MonoBehaviour
             lr.SetPosition(10, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, lr.GetPosition(11).y));
             lr.SetPosition(8, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, lr.GetPosition(11).y));
         }
-        if (Input.GetMouseButtonUp(0))
-        {
+        if (Input.GetMouseButtonUp(0)){
             box = gameObject.AddComponent<BoxCollider2D>();
             box.isTrigger = true;
             lr.enabled = false;
         }
+    }
+    private void FixedUpdate()
+    {
+        
     }
 }

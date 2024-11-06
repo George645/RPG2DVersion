@@ -7,13 +7,17 @@ public class Player : Entity {
     public int totalSoldiers;
     public List<Soldier> selectedSoldiers = new List<Soldier>();
     public int totalSelectedSoldiers;
-    private int level = 0;
+    private int level = 0, experience = 0, strength, dexterity, constitution, health, maxhealth, baseAttack;
     public int Level { get { return level; } }
-    private int experience = 0;
     public int Experience { set { experience = value; } }
     //Ability ability1, ability2
-    public Player(string name, int intelligence, int strength, int dexterity, int constitution) : base(name, constitution * 10, strength/2, strength, dexterity, constitution, intelligence){
+    public Player(string name, int intelligence, int strength, int dexterity, int constitution, int baseAttack){
         health = constitution * 10;
+        this.strength = strength;
+        this.dexterity = dexterity;
+        this.constitution = constitution;
+        maxhealth = health;
+        this.baseAttack = baseAttack;
         totalSoldiers = soldiersUnderCommand.Count;
     }
     public void AddSoldier(Soldier soldier){
@@ -32,36 +36,31 @@ public class Player : Entity {
             Debug.Log(message: "there was no soldier with id " + soldier.name);
         }
     }
-    public void SoldiersInList(List<Soldier> AttemptedSelectedSoldiers)
-    {
+    public void SoldiersInList(List<Soldier> AttemptedSelectedSoldiers){
         int count = 0;
-        foreach (Soldier soldier in AttemptedSelectedSoldiers)
-        {
-            if (soldiersUnderCommand.Contains(soldier))
-            {
+        selectedSoldiers.OrderBy(Soldier => Soldier.orderInArmy);
+        foreach (Soldier soldier in AttemptedSelectedSoldiers){
+            if (soldiersUnderCommand.Contains(soldier)){
                 selectedSoldiers.Add(soldier);
                 soldier.selected = true;
                 soldier.orderInLine = count;
                 count++;
             }
         }
-        selectedSoldiers.OrderBy(Soldier => Soldier.orderInArmy);
         //foreach (Soldier soldier in selectedSoldiers)
         //{
         //    Debug.Log(soldier.orderInArmy);
         //}
         totalSelectedSoldiers = selectedSoldiers.Count();
     }
-    public void LevelUp()
-    {
+    public void LevelUp(){
         Debug.Log(message: "This is not yet implemented, needs to run into the other attributes");
     }
     private void AddStrength(int amountToAdd){
         strength += amountToAdd;
         baseAttack = strength / 2;
     }
-    private void AddConstitution(int amountToAdd)
-    {
+    private void AddConstitution(int amountToAdd){
         constitution += amountToAdd;
         health = constitution * 10;
     }

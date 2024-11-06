@@ -8,7 +8,7 @@ public class Marker : MonoBehaviour{
     public LineRenderer lineRenderer;
     private int multiplier;
     void Update(){
-        if (lineRenderer.enabled == true && soldier.selected == true){
+        if (lineRenderer.enabled && soldier.selected && Input.GetMouseButtonUp(1)){
             multiplier = soldier.orderInArmy;
             direction = (lineRenderer.GetPosition(0) - lineRenderer.GetPosition(1)).normalized;
             target = (Vector2)lineRenderer.GetPosition(0) - direction * multiplier;

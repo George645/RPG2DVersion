@@ -1,6 +1,6 @@
 using UnityEngine;
-public class follow : MonoBehaviour
-{
+
+public class follow : MonoBehaviour{
     public Rigidbody2D followee;
     public Rigidbody2D marker;
     private Vector2 target;

@@ -1,10 +1,5 @@
-using NUnit.Framework.Constraints;
-using UnityEngine;
-using static Item;
-
 public class Weapon : Item{
-    public enum oneOrTwo
-    {
+    public enum oneOrTwo{
         oneHanded, twoHanded
     }
     oneOrTwo equipable;

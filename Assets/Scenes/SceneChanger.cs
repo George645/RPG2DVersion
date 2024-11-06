@@ -4,30 +4,22 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour{
     public string nextSceneName;
     private Collider2D thisCollider;
-    private void Start()
-    {
-        try
-        {
+    private void Start(){
+        try{
             thisCollider = GetComponent<Collider2D>();
         }
-        catch
-        {
+        catch{
             Debug.LogWarning("no collider2d registered, possible cause of an issue");
         }
     }
-    public void AddScene(string sceneName)
-    {
-        Debug.Log("Success");
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-    }
-    public void ChangeScene(string sceneName){
+    public static void ChangeScene(string sceneName){
         SceneManager.LoadScene(sceneName);
     }
 
     public void UnloadScene(string sceneName){
         SceneManager.UnloadSceneAsync(sceneName);
     }
-    public void Exit(){
+    public static void Exit(){
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
         #else
@@ -41,12 +33,10 @@ public class SceneChanger : MonoBehaviour{
             SceneManager.LoadScene(nextSceneName);
         }
     }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+    private void Update(){
+        if (Input.GetKeyDown(KeyCode.Escape)){
             Time.timeScale = 0;
-            AddScene("Pause menu");
+            ChangeScene("Pause menu");
         }
     }
 }
