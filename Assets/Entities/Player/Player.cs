@@ -1,28 +1,46 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using Unity.VisualScripting;
 public class Player : Entity {
     PlayerInventory playerInventory;
     public List<Soldier> soldiersUnderCommand = new List<Soldier>(); // WHY DOES THIS NEED TO BE PUBLIC????????!??!?
     public int totalSoldiers;
     public List<Soldier> selectedSoldiers = new List<Soldier>();
     public int totalSelectedSoldiers;
-    private int level = 0, experience = 0, strength, dexterity, constitution, health, maxhealth, baseAttack;
+    private int level = 0, experience = 0, strength, dexterity, constitution, maxhealth, baseAttack;
+    private float health;
     public int Level { get { return level; } }
     public int Experience { set { experience = value; } }
+    EnemysTarget singleUseAddToList;
+    public List<Enemy> enemyList = new();
+    EnemysTarget assignTo;
+    EnemysTarget[] enemyArray;
     //Ability ability1, ability2
+    private void Start()
+    {
+        enemyArray = (EnemysTarget[])FindObjectsByType(typeof(EnemysTarget), FindObjectsSortMode.None);
+        if (enemyArray.Count() == 1)
+        {
+            assignTo = enemyArray[0];
+        }
+        else
+        {
+            new UnhandledExceptionEventArgs(enemyArray, true);
+        }
+        assignTo.friendlyPositions.Add(gameObject);
+    }
     public Player(string name, int intelligence, int strength, int dexterity, int constitution, int baseAttack){
         health = constitution * 10;
         this.strength = strength;
         this.dexterity = dexterity;
         this.constitution = constitution;
-        maxhealth = health;
+        maxhealth = (int)health;
         this.baseAttack = baseAttack;
         totalSoldiers = soldiersUnderCommand.Count;
     }
     public void AddSoldier(Soldier soldier){
-        Debug.Log(soldiersUnderCommand.Capacity);
-        Debug.Log(soldier);
         soldiersUnderCommand.Add(soldier);
         totalSoldiers = soldiersUnderCommand.Count();
     }
@@ -35,6 +53,10 @@ public class Player : Entity {
         catch{
             Debug.Log(message: "there was no soldier with id " + soldier.name);
         }
+    }
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
     }
     public void SoldiersInList(List<Soldier> AttemptedSelectedSoldiers){
         int count = 0;

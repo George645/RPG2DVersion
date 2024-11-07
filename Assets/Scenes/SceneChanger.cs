@@ -33,10 +33,4 @@ public class SceneChanger : MonoBehaviour{
             SceneManager.LoadScene(nextSceneName);
         }
     }
-    private void Update(){
-        if (Input.GetKeyDown(KeyCode.Escape)){
-            Time.timeScale = 0;
-            ChangeScene("Pause menu");
-        }
-    }
 }

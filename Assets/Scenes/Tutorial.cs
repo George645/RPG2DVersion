@@ -32,6 +32,10 @@ public class Tutorial : MonoBehaviour
             else if (count == 2) {
                 text.text = "You can then right click and drag to deploy those selected units in a line";
             }
+            else if (count == 3)
+            {
+                text.text = "Here come the enemy's advance guard now, good luck";
+            }
         }
     }
     private void endTutorial()
@@ -45,12 +49,18 @@ public class Tutorial : MonoBehaviour
     {
         if (count == 1 && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.S)))
         {
-            TutorialClass(count++ ); 
+            TutorialClass(count++);
         }
-        else if (count == 2 && Input.GetMouseButtonUp(0)){
-            TutorialClass(count++ ) ;
+        else if (count == 2 && Input.GetMouseButtonUp(0))
+        {
+            TutorialClass(count++);
         }
-        else if (count == 3 && (Input.GetMouseButtonDown(1))){
+        else if (count == 3 && (Input.GetMouseButtonDown(1)))
+        {
+            TutorialClass(count++);
+        }
+        else if (count == 4 && Input.anyKeyDown)
+        {
             Time.timeScale = 1f;
             canvas.enabled = false;
         }
