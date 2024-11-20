@@ -13,11 +13,11 @@ TagManager:
   - Water
   - UI
   - Friendlies
+  - Friendly nearby detection
   - Enemies
+  - enemy nearby detection
   - wall
-  - 
-  - 
-  - 
+  - noCollisionEver
   - 
   - 
   - 

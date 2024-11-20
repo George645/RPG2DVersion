@@ -1,7 +1,5 @@
 using UnityEngine;
 using System;
-using System.Runtime.CompilerServices;
-using UnityEditor.Experimental.GraphView;
 
 public class SoldierMovement : MonoBehaviour{
     public Rigidbody2D rbMarker;

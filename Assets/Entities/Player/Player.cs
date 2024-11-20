@@ -9,7 +9,7 @@ public class Player : Entity {
     public int totalSoldiers;
     public List<Soldier> selectedSoldiers = new List<Soldier>();
     public int totalSelectedSoldiers;
-    private int level = 0, experience = 0, strength, dexterity, constitution, maxhealth, baseAttack;
+    private int level = 0, experience = 0, strength, dexterity, constitution = 5, maxhealth, baseAttack;
     private float health;
     public int Level { get { return level; } }
     public int Experience { set { experience = value; } }
@@ -30,15 +30,16 @@ public class Player : Entity {
             new UnhandledExceptionEventArgs(enemyArray, true);
         }
         assignTo.friendlyPositions.Add(gameObject);
+        constitution = 5;
+        health = constitution * 10;
+        maxhealth = (int)health;
+        totalSoldiers = soldiersUnderCommand.Count;
     }
     public Player(string name, int intelligence, int strength, int dexterity, int constitution, int baseAttack){
-        health = constitution * 10;
         this.strength = strength;
         this.dexterity = dexterity;
         this.constitution = constitution;
-        maxhealth = (int)health;
         this.baseAttack = baseAttack;
-        totalSoldiers = soldiersUnderCommand.Count;
     }
     public void AddSoldier(Soldier soldier){
         soldiersUnderCommand.Add(soldier);
@@ -85,5 +86,12 @@ public class Player : Entity {
     private void AddConstitution(int amountToAdd){
         constitution += amountToAdd;
         health = constitution * 10;
+    }
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            SceneChanger.ChangeScene("game over");
+        }
     }
 }

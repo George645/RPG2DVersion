@@ -27,7 +27,6 @@ public class SceneChanger : MonoBehaviour{
         #endif
     }
     void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("scene changer collision detected with " + other);
         // Check if the object entering the trigger is the player
         if (other.gameObject.CompareTag("Player")){
             SceneManager.LoadScene(nextSceneName);

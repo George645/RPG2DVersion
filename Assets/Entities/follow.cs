@@ -11,6 +11,7 @@ public class follow : MonoBehaviour{
     private void Start(){
         if (isSoldier){
             animator = GetComponent<Animator>();
+            followee.position = transform.position;
         }
     }
     private void FixedUpdate(){
